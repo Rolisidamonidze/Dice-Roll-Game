@@ -1,0 +1,63 @@
+
+@font-face{
+  font-family: arial_geo;
+  src: url("arial_geo.ttf");
+}
+body{
+  font-family: arial_geo;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+a{
+  color: #EEEEEE;
+  text-decoration: none;
+  background-color: #232931 ;
+  padding: 15px;
+  border-radius: 3px;
+}
+.dice {
+  text-align: center;
+  display: inline-block;
+  animation: 0.5s ease-in-out anima;
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #4ECCA3;
+  animation: 2.5s ease-in anima;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+@keyframes anima{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
